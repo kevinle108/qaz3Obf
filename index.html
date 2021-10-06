@@ -22,7 +22,6 @@
 
 <body>
     <main id="main">
-        <!-- Ballot Section  -->
         <div class="step" style="overflow-x:auto;">
             <h1 id="ballotInstructions" class="stepBanner" tabindex="0">
 			Additional Instructions for Voters Using a Screen Reader</h1>
@@ -57,14 +56,11 @@
                 <div id="ballotTitle">
                     <h2 aria-label="State of Maine Office Ballot General Election, November 3, 2020 for Any Town">State of Maine Official Ballot<br>General Election, November 3, 2020<br>for<br>Any Town</h2>
                 </div>
-                <!-- Contest Selections -->
                 <div id="contests"></div>
-                <!-- Overlay for Modal  -->
                 <div id="overlay"></div>                
             </div>
             <h2 id="ballotEnd" class="sectionEnd" tabindex="0">End of Ballot</h2>                                                     
         </div>
-        <!-- Review Section  -->
         <div class="step">
             <h1 id="step2" class="stepBanner" tabindex="0">Step 2 of 3: Review Ballot Selections</h1>
             <div id="reviewPage">
@@ -73,7 +69,6 @@
             </div>
             <h2 id="reviewEnd" class="sectionEnd" tabindex="0">End of Review</h2>                
         </div>
-        <!-- Affirmation Section  -->
         <div class="step">
             <h1 id="step3" class="stepBanner" tabindex="0">Step 3 of 3: Sign Maine Accessible Absentee Ballot Affirmation</h1>                            
             <div id="affidavitPage">
@@ -108,7 +103,6 @@
             </div>
         </div> 		
     </main>	
-	<!-- Modal for Rank Choice Confirmation  -->
 	<div id="rcModal" class="modal" role="alertdialog" aria-labelledby="rcModalTitle" aria-describedby="rcModalText">
 		<h2 id="rcModalTitle">Confirm Selection</h2>
 		<p id="rcModalText">Modal text here</p>
@@ -117,7 +111,6 @@
 			<button class="button" onclick="return false;" id="noButton">No</a>
 		</div>
 	</div>
-	<!-- Modal for Reach maximum number of choices  -->
 	<div id="maxChoicesModal" class="modal" role="alertdialog" aria-labelledby="maxChoicesModalTitle" aria-describedby="maxChoicesModalText">
 		<h2 id="maxChoicesModalTitle">Maximum Number of Choices</h2>
 		<hr padding="20px"><br>
@@ -126,7 +119,6 @@
 			<button id="maxChoicesOkButton" class="button" onclick="return false;">OK</a>
 		</div>
 	</div>  
-	<!-- Modal for Enter Write-in name  -->
 	<div id="writeInModal" class="modal" role="alertdialog" aria-labelledby="writeInModalTitle" aria-describedby="writeInModalText">
 		<h2 id="writeInModalTitle">Enter Write-in Name</h2>
 		<hr padding="20px"><br>
@@ -137,7 +129,6 @@
 			<button class="button" onclick="return false;" id="writeInCancelButton">Cancel</a>
 		</div>
 	</div>
-	<!-- Incorrect Password Modal -->
 	<div id="pwModal" class="modal" role="alertdialog" aria-labelledby="pwModalTitle" aria-describedby="pwModalText">
 		<h2 id="pwModalTitle">Invalid Password</h2>
 		<hr padding="20px"><br>
